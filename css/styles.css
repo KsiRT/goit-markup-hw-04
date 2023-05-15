@@ -7,6 +7,7 @@
   --btn-secondary: #f4f4fd;
   --btn-primary: #e7e9fc;
   --subtle-text: #8e8f99;
+  --green: #31d0aa;
 }
 
 /**==========================  Сommon classes =====================*/
@@ -25,6 +26,7 @@ body {
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .section {
@@ -216,6 +218,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.icon-bg {
+  display: flex;
+  background-color: var(--btn-secondary);
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+  border-radius: 4px;
+}
 
 /*!------------------------ What are we doing ---------------------*/
 
@@ -403,6 +413,11 @@ img {
   align-items: center;
   justify-content: center;
   fill: var(--btn-secondary);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--green);
 }
 
 /*?========================== Portfolio ==========================*/
