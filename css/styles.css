@@ -365,8 +365,44 @@ img {
   color: var(--btn-secondary);
 }
 
+.footer-container {
+  display: flex;
+}
+.logo-n-text {
+  margin-right: 120px;
+}
+
 .footer-slogan {
   max-width: 264px;
+}
+
+.soc-list {
+  display: flex;
+  gap: 16px;
+}
+/* .soc-media-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+} */
+
+.footer-soc-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-soc-link {
+  background-color: var(--primary-brand);
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--btn-secondary);
 }
 
 /*?========================== Portfolio ==========================*/
