@@ -352,7 +352,7 @@ img {
 }
 
 .customer-link {
-  display: block;
+  display: flex;
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
   color: var(--subtle-text);
