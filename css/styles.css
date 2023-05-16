@@ -157,7 +157,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1440px;
+  max-width: 1440px;
 }
 .hero-title {
   color: var(--white-bg);
@@ -352,16 +352,19 @@ img {
 }
 
 .customer-link {
-  display: flex;
+  display: block;
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
   color: var(--subtle-text);
   padding: 16px 32px;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 .customer-icon {
   fill: currentColor;
+  display: flex;
 }
 .customer-link:hover,
 .customer-link:focus {
