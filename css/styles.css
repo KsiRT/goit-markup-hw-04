@@ -64,6 +64,8 @@ img {
 
 .header {
   border-bottom: 1px solid var(--btn-primary);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -377,6 +379,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .logo-n-text {
   margin-right: 120px;
@@ -480,6 +483,13 @@ img {
 .spec-title {
   margin-bottom: 8px;
 }
+
 .example {
-  text-decoration: none;
+  display: block;
+}
+
+.example:hover,
+.example:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
